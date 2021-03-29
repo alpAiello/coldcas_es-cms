@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
-      region: 'eu-central-1',
+      region: 'us-west-1',
       params: {
-        Bucket: 'coldcas.es',
+        Bucket: 'coldcases',
       },
     },
   },
