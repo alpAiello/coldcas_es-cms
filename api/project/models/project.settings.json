@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projectDate": {
+      "type": "date"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "view.slide"
+    },
+    "artists": {
+      "via": "projects",
+      "collection": "artist"
+    }
+  }
+}

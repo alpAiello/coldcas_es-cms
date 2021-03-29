@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_slide_slides",
+  "info": {
+    "name": "view",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "TextArt": {
+      "type": "richtext"
+    }
+  }
+}
