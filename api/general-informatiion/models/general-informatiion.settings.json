@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_informatiions",
+  "info": {
+    "name": "General Informatiion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutText": {
+      "type": "richtext"
+    },
+    "startText": {
+      "type": "text"
+    },
+    "nameOfWebsite": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    }
+  }
+}
