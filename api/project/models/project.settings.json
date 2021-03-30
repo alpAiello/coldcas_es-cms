@@ -23,8 +23,12 @@
       "component": "view.slide"
     },
     "artists": {
-      "via": "projects",
-      "collection": "artist"
+      "collection": "artist",
+      "via": "projects"
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }
